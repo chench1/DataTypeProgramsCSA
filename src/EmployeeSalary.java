@@ -18,6 +18,6 @@ public class EmployeeSalary {
         int hours = scan.nextInt();
         System.out.println("Please enter their overtime hours: ");
         int overtime = scan.nextInt();
-        System.out.println(name + "'s weekly pay was: " + wage * (hours-40) + overtime * 1.5 * wage);
+        System.out.println(name + "'s weekly pay was: " + wage * hours + overtime * 1.5 * wage);
     }
 }
