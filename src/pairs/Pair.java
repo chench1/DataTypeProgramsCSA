@@ -1,3 +1,9 @@
+/*
+Author - Charles Chen
+Date - 10/7/21
+Purpose - Contains methods that operates on two numbers given in the constructor
+ */
+
 package pairs;
 
 public class Pair {
