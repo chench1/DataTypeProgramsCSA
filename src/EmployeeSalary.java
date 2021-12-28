@@ -68,7 +68,7 @@ public class EmployeeSalary {
 
             double pay = hours * wage + overtimeHours * 1.5 * wage;
 
-            System.out.println(name + " worked " + hours + ", and worked " + overtimeHours + ", at an hourly wage of "
+            System.out.println(name + " worked " + hours + " hours, and worked " + overtimeHours + " overtime hours, at an hourly wage of "
                     + wage + " to make $" + pay);
             System.out.println("Would you like to continue? Enter no to exit the program and anything else to continue");
             if (scan.nextLine().equals("no")) {
