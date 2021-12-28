@@ -26,7 +26,7 @@ public class StringHandling {
         System.out.println(string2.substring(0, indexOfFourthSpace));
         System.out.println("The string after index 12 is: " + string.substring(13));
         System.out.println("The first 8 characters of your string is: " + string.substring(0, 8));
-        System.out.println("The word after the third space in the string combined with the string after index twelve is:" + string2.substring(0, indexOfFourthSpace) + "//" + string.substring(13));
+        System.out.println("The word after the third space in the string combined with the string after index twelve is:" + string2.substring(0, indexOfFourthSpace) + "\\\\" + string.substring(13));
         System.out.println("The 5th, 9th, 12th indexes from the original string is: " + string.charAt(5) + ", " + string.charAt(9) + ", " + string.charAt(12) + ", respectively");
 
     }
