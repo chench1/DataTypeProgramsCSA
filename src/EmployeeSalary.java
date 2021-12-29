@@ -63,13 +63,11 @@ public class EmployeeSalary {
                         System.out.println("Please enter a valid number.");
                     }
                 }
-
             }
 
             double pay = hours * wage + overtimeHours * 1.5 * wage;
 
-            System.out.println(name + " worked " + hours + " hours, and worked " + overtimeHours + " overtime hours, at an hourly wage of "
-                    + wage + " to make $" + pay);
+            System.out.printf("%s worked %.2f hours, and worked %.2f overtime hours, at an hourly wage of $%.2f to make $%.2f\n", name, hours, overtimeHours, wage, pay);
             System.out.println("Would you like to continue? Enter no to exit the program and anything else to continue");
         } while (!scan.nextLine().equals("no"));
 
