@@ -73,10 +73,7 @@ public class EmployeeSalary {
             System.out.println("Would you like to continue? Enter no to exit the program and anything else to continue");
             if (scan.nextLine().equals("no")) {
                 break;
-            } else {
-                System.out.println("Please enter the employee's name");
             }
-
         }
 
         System.out.println("The program is terminating.");
